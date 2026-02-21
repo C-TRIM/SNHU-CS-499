@@ -1,50 +1,45 @@
-# SNHU-CS-499
-Capstone project for the B.S. in Computer Science program. Enhanced a Java Task, Appointment, and Contact Service application through architectural refactoring, HashMap-based algorithm optimization, and secure DAO database integration, demonstrating modular design, Big-O analysis, and secure data persistence aligned with industry practices.
+# SNHU-CS-499raints
 
 CS 499 Capstone – Enhanced Service Application
-Overview
 
-This project represents my capstone for the Bachelor of Science in Computer Science program. It enhances a Java-based Task, Appointment, and Contact Service application through architectural refactoring, algorithm optimization, and secure database integration.
+This repository contains my capstone project for the Bachelor of Science in Computer Science program. The project enhances a Java-based Task, Appointment, and Contact Service application through architectural refactoring, algorithm optimization, and secure database integration.
 
-The goal of this project was to transform a course-based service application into a more scalable, maintainable, and security-conscious system aligned with professional software development standards.
+The objective was to evolve a course-based service application into a scalable, maintainable, and security-conscious system aligned with professional software development standards.
 
-Project Objectives
-
-The enhancement focused on three core areas:
-
-1. Software Engineering & Design
+Project Enhancements
+Software Engineering & Design
 
 Refactored architecture to improve modularity and maintainability
 
-Introduced service interfaces and layered design principles
+Applied layered design principles and separation of concerns
 
 Centralized validation logic into reusable components
 
 Improved exception handling and documentation
 
-Applied professional coding standards and clean structure
+Enforced clean coding standards and structured organization
 
-2. Algorithms & Data Structures
+Algorithms & Data Structures
 
-Replaced linear list-based searches (O(n)) with HashMap-based indexing (O(1))
+Replaced linear list-based searches O(n) with HashMap indexing O(1)
 
-Analyzed time complexity trade-offs using Big-O notation
+Conducted Big-O time complexity analysis
 
 Improved lookup efficiency and scalability
 
-Evaluated performance implications of memory vs speed trade-offs
+Evaluated performance trade-offs (memory vs. speed)
 
-3. Database Integration
+Database Integration
 
-Implemented persistent data storage using a DAO (Data Access Object) pattern
+Implemented persistent storage using the DAO (Data Access Object) pattern
 
-Designed relational schema with proper constraints
+Designed relational schema with appropriate constraints
 
-Implemented CRUD operations
+Implemented full CRUD operations
 
-Used prepared statements to mitigate SQL injection risks
+Used prepared statements to mitigate SQL injection
 
-Introduced transaction handling and secure data validation
+Applied transaction handling and secure data validation
 
 Technical Stack
 
@@ -52,19 +47,21 @@ Java
 
 Object-Oriented Design Principles
 
-HashMap and Collections Framework
+Java Collections Framework (HashMap)
 
-JDBC / Relational Database Integration
+JDBC
+
+Relational Database (SQLite)
 
 DAO Pattern
 
-Unit Testing (JUnit)
+JUnit Testing
 
 Key Skills Demonstrated
 
-Modular architecture and separation of concerns
+Modular system architecture
 
-Algorithm efficiency analysis and optimization
+Algorithm analysis and optimization
 
 Secure coding practices
 
@@ -74,27 +71,25 @@ Database schema design
 
 CRUD implementation
 
-Professional documentation and code organization
+Professional documentation and repository structure
 
 Security Considerations
 
-This project incorporates a security mindset through:
-
-Input validation
-
-Centralized validation framework
+Centralized input validation
 
 Prepared statements for database queries
 
-Exception control to prevent information leakage
+Structured exception handling
 
-Structured error handling
+Defensive validation logic
+
+Reduced risk of injection and information leakage
 
 Performance Improvements
 Feature	Original Implementation	Enhanced Implementation
 Object Lookup	Linear search (O(n))	Hash-based lookup (O(1))
 Data Storage	In-memory only	Persistent database storage
-Validation	Inline logic	Reusable validation classes
+Validation	Inline logic	Reusable validation framework
 Future Improvements
 
 Implement REST API layer
@@ -103,12 +98,15 @@ Add authentication and role-based access control
 
 Expand unit test coverage
 
-Introduce logging framework
+Introduce structured logging
 
-Code Review: https://www.youtube.com/watch?v=1soNn6DVQa0 
+Code Review
+
+YouTube walkthrough:
+https://www.youtube.com/watch?v=1soNn6DVQa0
 
 Author
+
 Chris Trimble
 B.S. Computer Science Candidate
-
 Focus: Cybersecurity & Secure Software Development
