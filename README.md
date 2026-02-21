@@ -108,7 +108,7 @@ Introduce logging framework
 Code Review: https://www.youtube.com/watch?v=1soNn6DVQa0 
 
 Author
-
 Chris Trimble
 B.S. Computer Science Candidate
+
 Focus: Cybersecurity & Secure Software Development
