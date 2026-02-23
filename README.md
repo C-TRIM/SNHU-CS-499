@@ -1,4 +1,4 @@
-# SNHU-CS-499raints
+# SNHU-CS-499
 
 CS 499 Capstone – Enhanced Service Application
 
